@@ -8,42 +8,71 @@
 
   <style>
     .container {
-      width: 700px; /* Increase the width as needed */
-    }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-    .input-field {
-      display: block;
-      width: 100%;
-      padding: 10px 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-    .submit-button {
-      background-color: #f44336;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 40px;
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.2s ease-in-out;
-    }
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-    .submit-button:hover {
-      background-color: #e74c3c;
-    }
+.submit-button:hover {
+  background-color: #45a049;
+}
 
-    .table {
-      width: 100%;
-      border-collapse: collapse;
-    }
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
 
-    .table th, td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      text-align: left;
-      color: #000; /* Change the text color to black */
-    }
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* Form Label Style */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Checkbox Style */
+input[type="checkbox"] {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
   </style>
 </head>
 <body class="bg-gray-100">
